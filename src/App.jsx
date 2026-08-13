@@ -1,9 +1,14 @@
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import About from './components/About/About';
+
 function App() {
   return (
-    <div>
-      <h1>AR1 Web Dev Portfolio</h1>
-      <p>Coming soon...</p>
-    </div>
+    <>
+      <Header />
+      <Hero />
+      <About />
+    </>
   );
 }
 
